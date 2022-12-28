@@ -1,0 +1,101 @@
+body {
+    padding: 30px;
+}
+
+h1 {
+    background-color: rgb(233, 192, 216);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+main {
+    border-style: dotted;
+    border-color: rgb(233, 192, 216);
+    padding: 50px;
+}
+
+h2 {
+    background-color: rgb(233, 192, 216);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.centrar1 {
+    border: 2px solid black;
+    display: block;
+    margin-left: 350px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.centrar {
+
+    border: 2px black;
+    border-style: dotted;
+    display: block;
+    margin-left: 435px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    border-radius: 12px;
+
+}
+.centrar:hover{
+    border: 5px solid black;
+}
+
+h3 {
+
+    border: rgb(233, 192, 216);
+    border-style: double;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+a {
+    color: rgb(128, 25, 25);
+}
+
+thead {
+    font-family: cursive;
+    background-color: rgb(202, 105, 105);
+}
+
+tbody {
+    background-color: rgba(224, 131, 131, 0.685);
+}
+
+table {
+    display: block;
+    margin-left: 128px;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    font-family: cursive;
+    font-size: small;
+
+}
+.inicio{
+    border: 1px solid black;
+    background-color: rgb(233, 192, 216);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 12px;
+
+}
+.inicio:hover {
+    background-color: rgb(173, 80, 80);
+}

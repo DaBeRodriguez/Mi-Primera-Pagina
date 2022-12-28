@@ -1,0 +1,51 @@
+body {
+    padding: 30px;
+}
+
+h1 {
+    border: 1px solid black;
+    background-color: rgb(233, 192, 216);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    border-color: rgb(240, 184, 217);
+    border-style: dashed;
+    padding: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    margin: 20px;
+    font-family: cursive;
+    font-size: small;
+
+}
+
+div {
+    margin: 20px;
+    font-family: cursive;
+}
+
+h5 {
+    color: red;
+}
+.inicio {
+    border: 1px solid black;
+    background-color: rgb(233, 192, 216);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 12px;
+}
+.inicio:hover {
+    background-color: rgb(173, 80, 80);
+}

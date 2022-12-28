@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende su cita</title>
+    <link rel="stylesheet" href="CSS/agendesucita.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Agenda tu cita con nosotros</h1>
+    </header>
+
+    <main>
+
+        <form>
+            <div>
+                <label for="nombres">Nombre</label>
+                <input type="text" name="nombre" id="nombres" placeholder="Ingrese sus nombre">
+            </div>
+
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+            </div>
+
+            <div>
+                <label for="correo-electronico">Correo electronico</label>
+                <input type="e-mail" name="correo-electronico" id="correo-electronico"
+                placeholder="Ingrese su correo electronico">
+            </div>
+
+            <div>
+                 <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni" placeholder="Ingrese su Nº de Dni">
+            </div>
+
+            <div>
+                <label for="numero-telefonico">Numero Telefonico</label>
+                <input type="text" name="numero-telefonico" id="numero-telefonico" placeholder="Ingresa un numero vigente">
+            </div>
+
+            <div>
+                <label for="permiso">¿Estas de Acuerdo con que nos contactemos contigo para hacerte saber en que dias y
+                    horarios contamos con citas?</label>
+                <input type="checkbox" name="permiso" id="permiso">
+            </div>
+            
+            <div>
+
+                <h5>Recuerda ingresar correctamente tus datos </h5>
+
+                <div>
+                    
+                <button type="button" id="enviar" onclick="datos()"> Enviar</button>
+                </div>
+
+            </div>
+
+        </form>
+        <div> 
+            <a class="inicio" href="index.html"> Regresar a Inicio </a>
+        </div>
+
+    </main>
+    <footer>
+        Creado por &copy;Daniela ; Derechos de autor reservados.
+    </footer>
+    <script src="JS/agendatucita.js"></script>
+</body>
+
+</html>
